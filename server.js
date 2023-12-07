@@ -143,7 +143,7 @@ const updateEmpRole = () => inquirer.prompt([
 ]).then(answer => {
     console.log("Updating employee: ", answer.updateEmp, "to role: ", answer.newRole)
 
-    db.promise().execute("UPDATE employee SET role_id=? WHERE first_name = ?", [answer.updateEmp, answer.newRole]) 
+    db.promise().execute("UPDATE employee SET role_id=? WHERE first_name = ?", [answer.newRole, answer.updateEmp]) 
     .then(([rows, fields]) =>{
         console.table(rows);
         councilQuestions();
