@@ -5,7 +5,6 @@
 
   - [Description](#description)
   - [Installation](#installation)
-  - [Packages](#packages)
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
@@ -14,6 +13,7 @@
 
   ## Description
   This application will help an employer  manage their company’s employee database using Node.ja, Inquirer and MySQL.  It can be used to view, add, or update the roles of the company, different departments, and its employees. 
+  
   ## Installation
   This application will require the following tools:
   - `Inquirer 8.2.4` 
@@ -40,6 +40,7 @@
   none 
  
   ## Tests
+  ![Employee-Tracker-Video](https://github.com/H3yJ4yy/workplace-tracker/assets/143395836/707265cd-0148-46af-b123-9d8170d9b40d)
   ![empTracker1.png](./images/empTracker1.png)
   ![empTracker2.png](./images/empTracker2.png)
   ![empTracker3.png](./images/empTracker3.png)
